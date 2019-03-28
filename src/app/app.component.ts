@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'bwm-cli';
+  title = 'I am a title';
+
+  buttonClicked() {
+    alert('Button was clicked!');
+  }
 }

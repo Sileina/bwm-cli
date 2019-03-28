@@ -1,0 +1,74 @@
+@import "variables";
+.navbar {
+    padding: 20px;
+    margin-bottom: 40px;
+  
+  
+    .bwm-search {
+      height: 50px;
+      width: 300px;
+    }
+  
+  
+    .navbar-brand {
+      margin-right: 30px;
+      font-size: 30px;
+      letter-spacing: 1px;
+      color: $main-color;
+      font-weight: 500;
+    }
+  
+  
+    .nav-item {
+      font-size: 14px;
+    }
+  
+  
+    .btn-bwm-search { 
+        color: $main-color; 
+        background-color: $color-white; 
+        border-color: $main-color; 
+      } 
+       
+      .btn-bwm-search:hover, 
+      .btn-bwm-search:focus, 
+      .btn-bwm-search:active, 
+      .btn-bwm-search.active, 
+      .open .dropdown-toggle.btn-bwm-search { 
+        color:$color-white; 
+        background-color: $main-color; 
+        border-color:$main-color; 
+      } 
+       
+      .btn-bwm-search:active, 
+      .btn-bwm-search.active, 
+      .open .dropdown-toggle.btn-bwm-search { 
+        background-image: none; 
+      } 
+       
+      .btn-bwm-search.disabled, 
+      .btn-bwm-search[disabled], 
+      fieldset[disabled] .btn-bwm-search, 
+      .btn-bwm-search.disabled:hover, 
+      .btn-bwm-search[disabled]:hover, 
+      fieldset[disabled] .btn-bwm-search:hover, 
+      .btn-bwm-search.disabled:focus, 
+      .btn-bwm-search[disabled]:focus, 
+      fieldset[disabled] .btn-bwm-search:focus, 
+      .btn-bwm-search.disabled:active, 
+      .btn-bwm-search[disabled]:active, 
+      fieldset[disabled] .btn-bwm-search:active, 
+      .btn-bwm-search.disabled.active, 
+      .btn-bwm-search[disabled].active, 
+      fieldset[disabled] .btn-bwm-search.active { 
+        background-color: $color-white; 
+        border-color: $main-color; 
+      } 
+       
+      .btn-bwm-search .badge { 
+        color: $color-white; 
+        background-color:$main-color; 
+      }
+
+    
+  }
